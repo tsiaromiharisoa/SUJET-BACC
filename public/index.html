@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUJET ET CORRIGES BACC TOUT SERIE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SUJET ET CORRIGES BACC TOUT SERIE</h1>
+        
+        <div class="filters">
+            <div class="filter-group">
+                <h2>Matières</h2>
+                <div class="buttons">
+                    <button class="btn matiere" data-matiere="HG">Histoire-Géographie</button>
+                    <button class="btn matiere" data-matiere="MLG">Malagasy</button>
+                    <button class="btn matiere" data-matiere="FRS">Français</button>
+                    <button class="btn matiere" data-matiere="PC">Physique-Chimie</button>
+                    <button class="btn matiere" data-matiere="MATH">Mathématiques</button>
+                </div>
+            </div>
+            
+            <div class="filter-group">
+                <h2>Séries</h2>
+                <div class="buttons">
+                    <button class="btn serie active" data-serie="A">Série A</button>
+                    <button class="btn serie" data-serie="D">Série D</button>
+                    <button class="btn serie" data-serie="C">Série C</button>
+                    <button class="btn serie" data-serie="S">Série S</button>
+                    <button class="btn serie" data-serie="Ose">Série Ose</button>
+                    <button class="btn serie" data-serie="Let">Série L</button>
+                </div>
+            </div>
+            
+            <div class="filter-group">
+                <h2>Type</h2>
+                <div class="buttons">
+                    <button class="btn type active" data-type="sujet">Sujets</button>
+                    <button class="btn type" data-type="correction">Corrigés</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="documents">
+            <h2 id="result-title">Veuillez sélectionner les filtres</h2>
+            <div id="documents-list" class="documents-grid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
